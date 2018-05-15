@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/action_view_order"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        android:title="view_order"
+        app:showAsAction="always"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/action_new_tank"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="new_tank"
+        app:showAsAction="always"
+        tools:ignore="HardcodedText" />
+
+</menu>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <!--progress bar background-->
+            <solid android:color="@color/notifications" />
+        </shape>
+    </item>
+    <!--progress gauge-->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <gradient
+                    android:angle="270"
+                    android:centerColor="@color/gaugeCenter"
+                    android:centerY="0.50"
+                    android:endColor="@color/gaugeRim"
+                    android:startColor="@color/gaugeRim" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

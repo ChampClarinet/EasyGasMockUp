@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EASYGAS</string>
+
+    <!--model names-->
+    <string name="model_name_gas_tank" translatable="false">Gas Tank</string>
+
+    <!--labels-->
+    <string name="loading">loading</string>
+    <string name="label_id" translatable="false">ID: %1$d</string>
+    <string name="label_percentage" translatable="false">%1$d\%</string>
+    <string name="order">order</string>
+    <string name="reorder">reorder</string>
+    <string name="tanks_amount">Tanks amount: %1$d</string>
+    <string name="auto_reorder_label">Reorder automatically</string>
+    <string name="label_gas_low_tank_amount">%1$d tank(s) are running out!</string>
+    <string name="gas_tank_quantity">Amount</string>
+    <string name="price">Price</string>
+    <string name="label_ordered">%1$d tanks pending</string>
+    <string name="order_confirmation_title">Order confirmation</string>
+    <string name="label_confirmation">Gas tank x %1$d</string>
+    <string name="order_success_label">%1$d tank(s) has been ordered.</string>
+    <string name="total_price">Total price: %1$d</string>
+
+</resources>
